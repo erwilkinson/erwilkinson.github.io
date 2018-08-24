@@ -3,7 +3,7 @@ body {
 }
 
 .navigation {
-  background-image: image("/resources/images/the-flatiron-building.png");
+  background-image: image("./resources/images/the-flatiron-building.png");
 }
 
 .navigation li a {
