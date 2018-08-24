@@ -6,7 +6,7 @@ body {
   background-image: image("resources/images/the-flatiron-building.png");
 }
 
-.navigation li {
+.navigation li a {
   font-family: "Helvetica";
   font-size: 18px;
   color: white;
