@@ -9,8 +9,13 @@ header {
   display: flex;
 }
 
+.a header {
+  color: black;
+}
+
 .logo {
   color: MediumAquamarine;
+  display: inline-block;
 }
 
 .navigation {
