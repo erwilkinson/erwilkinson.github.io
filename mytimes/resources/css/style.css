@@ -14,15 +14,20 @@ header {
   height: 80px;
 }
 
-.a header {
+.a navigation {
   color: black;
 }
 
 .logo {
   color: MediumAquamarine;
   display: inline-block;
+  align-items: center;
+  margin: 40px;
 }
 
 .navigation {
-  display: flex;
+  display: inline-block;
+  align-items: center;
+  justify-content: left;
+  margin: 50px;
 }
