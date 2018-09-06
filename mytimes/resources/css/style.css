@@ -26,10 +26,10 @@ li a {
   color: black;
 }
 
-ul {
+li {
   display: flex;
   list-style: none;
   width: 50px;
-  align-items: left;
+  align-items: right;
   text-decoration: underline;
 }
