@@ -7,17 +7,16 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
   position: fixed;
   width: 100%;
   z-index: 2;
   background-color: white;
+  border: 1px solid black;
 }
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
   color: MediumAquamarine;
 }
 
