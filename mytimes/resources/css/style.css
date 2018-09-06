@@ -7,11 +7,13 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
   z-index: 2;
   background-color: white;
   border: 1px solid black;
+  padding: 10px;
 }
 
 .logo {
@@ -28,7 +30,6 @@ ul {
   display: flex;
   list-style: none;
   width: 50px;
-  text-align: center;
+  align-items: left;
   text-decoration: underline;
-  margin: 0 20px;
 }
