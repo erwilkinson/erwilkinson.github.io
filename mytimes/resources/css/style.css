@@ -22,14 +22,14 @@ header {
   color: MediumAquamarine;
 }
 
-li a {
+.navigation li a {
   color: black;
 }
 
-li {
+.navigation {
   display: flex;
+  margin-left: auto;
   list-style: none;
   width: 50px;
-  align-items: right;
   text-decoration: underline;
 }
