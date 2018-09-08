@@ -21,7 +21,7 @@ header {
 }
 
 .navigation {
-  display: block;
+  display: flex;
   list-style: none;
   text-align: center;
   width: 50px;
@@ -29,4 +29,30 @@ header {
 }
 .navigation a {
   color: black;
+}
+
+/****** Main Content ******/
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 20px;
+  position: relative;
+  border 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+  border 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  border 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  border 1px solid black;
 }
