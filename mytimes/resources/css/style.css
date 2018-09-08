@@ -1,35 +1,13 @@
-
-
 /****** Navigation ******/
 
-header {
+.header {
+  display: flex;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  background-color: white;
-  border: 1px solid black;
-  padding: 10px;
-}
-
-.logo {
-  display: flex;
-  align-items: left;
-  color: MediumAquamarine;
-}
-
-.navigation li a {
-  color: black;
 }
 
 .navigation {
-  display: flex;
-  margin-left: auto;
-  list-style: none;
-  width: 50px;
-  text-decoration: underline;
+  display: inline-block;
 }
