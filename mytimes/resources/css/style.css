@@ -35,7 +35,7 @@ header {
 
 /****** Main Content ******/
 
-.main {
+.page {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -47,6 +47,36 @@ header {
 .column.large {
   width: 630px;
   border 1px solid black;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: block;
+}
+
+p {
+  display: block;
+}
+
+.page p {
+  text-align: justify;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#main {
+  background-image: url(images/img-story-main.png);
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+#main h2 {
+  font-size: 40px;
 }
 
 .column.medium {
