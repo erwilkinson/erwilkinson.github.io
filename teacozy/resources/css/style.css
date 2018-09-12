@@ -23,8 +23,23 @@ nav img {
   margin-left: 10px;
 }
 
-nav li {
+nav ul li {
   list-style: none;
   text-decoration: underline;
   display: inline-block;
+}
+
+.hero {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: image("resources/images/img-mission-background.jpg");
+}
+
+.hero-jumbo {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+  padding: 20px;
 }
