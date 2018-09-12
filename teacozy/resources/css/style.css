@@ -14,6 +14,7 @@ nav {
   opacity: 0.9;
   border-bottom: 1px solid seashell;
   list-style: none;
+  margin: auto;
 }
 
 nav img {
