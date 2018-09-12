@@ -33,7 +33,7 @@ nav ul li {
   display: flex;
   width: 1200px;
   height: 700px;
-  background-image: image("resources/images/img-mission-background.jpg");
+  background-image: url("resources/images/img-mission-background.jpg");
 }
 
 .hero-jumbo {
