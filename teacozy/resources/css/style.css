@@ -13,7 +13,6 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: right;
-  flex-wrap: wrap;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
@@ -23,10 +22,6 @@ nav {
 nav img {
   height: 50px;
   margin-left: 10px;
-}
-
-nav ul {
-  display: inline-block;
 }
 
 nav li {
