@@ -23,6 +23,8 @@ body {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
   margin: auto;
   z-index: 1;
 }
