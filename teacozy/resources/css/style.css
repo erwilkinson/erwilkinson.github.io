@@ -65,11 +65,14 @@ body {
 
 /*Featured Tea Content */
 
+.featured-teas #title {
+  flex-direction: column;
+}
+
 .featured-teas {
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
   width: 1000px;
   padding-top: 50px;
 }
