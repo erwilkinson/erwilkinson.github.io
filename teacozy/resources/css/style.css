@@ -7,11 +7,10 @@ body {
   margin: 0;
 }
 
-.flex-container {
+.nav {
   display: flex;
   position: fixed;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: center;
   height: 69px;
   width: 100%;
@@ -19,25 +18,13 @@ body {
   margin: auto;
 }
 
-.flex-container nav img {
+.nav img {
   height: 50px;
   margin-left: 10px;
 }
 
-.flex-container nav ul li {
+.nav ul li {
   list-style: none;
   text-decoration: underline;
   display: inline-block;
-}
-
-.main {
-  padding-top: 69px;
-  opacity: 0.9;
-  width: 1200px;
-  margin: auto;
-}
-
-#mission {
-  height: 700px;
-  background-image: url("resouces/images/img-mission-background.jpg");
 }
