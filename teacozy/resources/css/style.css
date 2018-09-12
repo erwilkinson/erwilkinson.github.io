@@ -7,10 +7,11 @@ body {
   margin: 0;
 }
 
-nav {
+.flex-container {
   display: flex;
   position: fixed;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   height: 69px;
   width: 100%;
@@ -18,28 +19,25 @@ nav {
   margin: auto;
 }
 
-nav img {
+.flex-container nav img {
   height: 50px;
   margin-left: 10px;
 }
 
-nav ul li {
+.flex-container nav ul li {
   list-style: none;
   text-decoration: underline;
   display: inline-block;
 }
 
-.hero {
-  display: flex;
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
   width: 1200px;
-  height: 700px;
-  background-image: url("resources/images/img-mission-background.jpg");
+  margin: auto;
 }
 
-.hero-jumbo {
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  opacity: 0.9;
-  padding: 20px;
+#mission {
+  height: 700px;
+  background-image: url("resouces/images/img-mission-background.jpg");
 }
