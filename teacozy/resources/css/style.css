@@ -62,3 +62,10 @@ body {
   padding: 20px 20px;
   width: 100%;
 }
+
+.featured-tea {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
