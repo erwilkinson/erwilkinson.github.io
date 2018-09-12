@@ -10,8 +10,9 @@ nav {
   display: flex;
   position: fixed;
   align-items: center;
+  text-align: right;
   flex-wrap: wrap;
-  text-align: right
+  flex-grow: 1;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
@@ -21,11 +22,10 @@ nav {
 nav img {
   height: 50px;
   margin-left: 10px;
-  justify-content: flex-start;
 }
 
 nav li {
-  justify-content: flex-end;
   list-style: none;
   text-decoration: underline;
+  margin-left: auto;
 }
