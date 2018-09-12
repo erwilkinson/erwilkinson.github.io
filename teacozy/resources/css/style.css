@@ -73,15 +73,20 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 1000px;
   padding-top: 50px;
 }
 
 .featured-tea {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.featured-tea h4 {
+  padding: 10px 0 20px 0;
 }
 
 .featured-tea img {
