@@ -65,10 +65,23 @@ body {
 
 /*Featured Tea Content */
 
-.featured-tea {
+.featured-teas {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
   width: 1000px;
   padding-top: 50px;
+}
+
+.featured-tea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-tea img {
+  width: 300px;
+  height: 200px;
 }
