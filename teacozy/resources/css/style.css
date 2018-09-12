@@ -4,15 +4,16 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
 nav {
   display: flex;
   position: fixed;
   align-items: center;
+  justify-content: center;
   text-align: right;
   flex-wrap: wrap;
-  flex-grow: 1;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
@@ -24,8 +25,11 @@ nav img {
   margin-left: 10px;
 }
 
+nav ul {
+  display: inline-block;
+}
+
 nav li {
   list-style: none;
   text-decoration: underline;
-  margin-left: auto;
 }
