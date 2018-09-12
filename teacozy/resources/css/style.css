@@ -26,4 +26,5 @@ nav img {
 nav li {
   list-style: none;
   text-decoration: underline;
+  display: inline-block;
 }
