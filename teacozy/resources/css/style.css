@@ -2,7 +2,6 @@ nav {
   display: flex;
   position: fixed;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   text-align: right
   height: 69px;
@@ -14,9 +13,14 @@ nav {
   background-color: black;
   opacity: 0.9;
   border-bottom: 1px solid seashell;
+  list-style: none;
 }
 
 nav img {
   height: 50px;
   margin-left: 10px;
+}
+
+nav li {
+  justify-content: flex-end;
 }
