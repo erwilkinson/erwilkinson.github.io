@@ -1,3 +1,11 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
 nav {
   display: flex;
   position: fixed;
@@ -6,22 +14,18 @@ nav {
   text-align: right
   height: 69px;
   width: 100%;
-  font-family: Helvetica;
-  font-size: 22px;
-  text-decoration: underline;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
   border-bottom: 1px solid seashell;
-  list-style: none;
   margin: auto;
 }
 
 nav img {
   height: 50px;
   margin-left: 10px;
+  justify-content: flex-start;
 }
 
 nav li {
   justify-content: flex-end;
+  list-style: none;
+  text-decoration: underline;
 }
