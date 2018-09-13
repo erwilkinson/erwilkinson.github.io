@@ -66,10 +66,7 @@ body {
 /*Featured Tea Content */
 
 .featured-teas {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  flex-direction: column;
   width: 1000px;
   padding: 50px;
   margin: auto;
@@ -79,7 +76,6 @@ body {
   width: 30%;
   margin: 8px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: auto;
