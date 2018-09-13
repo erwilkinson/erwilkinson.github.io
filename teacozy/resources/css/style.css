@@ -89,3 +89,7 @@ body {
 .tea-item h4 {
   display: block;
 }
+
+#featured-teas-wrapper {
+  width: 100%;
+}
