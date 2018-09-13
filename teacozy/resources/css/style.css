@@ -78,7 +78,7 @@ body {
 .featured-tea {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 50px;
   margin: auto;
