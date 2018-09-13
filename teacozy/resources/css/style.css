@@ -73,10 +73,15 @@ body {
 }
 
 .tea-item {
-  width: 30%;
-  margin: 8px;
+  width: 1000px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+.tea-item img {
+  width: 30%;
+  margin: 10px;
 }
