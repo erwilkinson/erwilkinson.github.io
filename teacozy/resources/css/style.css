@@ -72,14 +72,16 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   width: 1000px;
-  padding-top: 50px;
+  padding: 50px;
+  margin: auto;
 }
 
 .featured-tea {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 .featured-tea h4 {
