@@ -75,20 +75,12 @@ body {
   margin: auto;
 }
 
-.featured-tea {
+.tea-item {
+  width: 30%;
+  margin: 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px;
   margin: auto;
-}
-
-.featured-tea h4 {
-  padding: 10px 0 20px 0;
-}
-
-.featured-tea img {
-  width: 300px;
-  height: 200px;
 }
