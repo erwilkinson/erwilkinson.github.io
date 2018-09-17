@@ -119,7 +119,9 @@ body {
 
 .footer {
   height: 200px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
